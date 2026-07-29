@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Issue</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/report.css">
+</head>
+<body>
+
+    <header>
+        <h1>Smart Campus Issue Reporter</h1>
+
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="report.html">Report Issue</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Report Campus Issue</h2>
+
+        <form>
+
+            <label>Issue Title</label>
+            <input type="text" placeholder="Enter issue title">
+
+            <label>Category</label>
+            <select>
+                <option>Electrical</option>
+                <option>Plumbing</option>
+                <option>Wi-Fi</option>
+                <option>Furniture</option>
+                <option>Cleanliness</option>
+            </select>
+
+            <label>Location</label>
+            <input type="text" placeholder="Enter location">
+
+            <label>Description</label>
+            <textarea rows="5" placeholder="Describe the issue"></textarea>
+
+            <label>Upload Image</label>
+            <input type="file">
+
+            <button type="submit">Submit Issue</button>
+
+        </form>
+
+    </main>
+
+    <script src="js/report.js"></script>
+
+</body>
+</html>
